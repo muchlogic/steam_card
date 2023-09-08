@@ -1,0 +1,109 @@
+/* steam color pallete: https://colorswall.com/palette/193 */
+*{
+    padding: 0;
+    margin: 0;
+    color: 	#c7d5e0;
+}
+
+body{
+    background-color: #1b2838;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.main-bar{
+    margin: 20px;
+    width: 940px;
+    border: 2px solid blue;
+}
+
+.user-pfp{
+    border: 2px solid purple;
+    width: 184px;
+    height: 184px;
+    margin: 10px;
+}
+
+.username{
+    display: flex;
+    justify-content: center;
+    border: 2px solid purple;
+    width: 184px;
+    height: 30px;
+    margin: 10px;
+}
+
+.username p{
+    margin: auto;
+}
+
+.game-podium{
+    border: 2px solid red;
+    list-style: none;
+    margin: auto;
+    width: 940px;
+}
+
+.game-item{
+    border: 2px solid beige;
+    margin: 0 auto 10px auto;
+}
+
+.game-item-subcontainer{
+    position: relative;
+}
+
+.game-name{
+    position: relative;
+    border: 2px solid blue;
+    width: 500px;
+    height: 30px;
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.game-name p{
+    position: absolute;
+    top: 5px;
+}
+
+.game-img{
+    border: 2px solid blue;
+    width: 184px;
+    height: 69px;
+    margin: 10px;
+}
+
+.total-game-time{
+    border: 2px solid blue;
+    width: 184px;
+    height: 30px;
+    margin: 0 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.top-achievements {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 140px;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+
+.top-achievements div {
+    margin: 10px;
+}
+
+
+.top-achievements img {
+    height: 64px;
+    width: 64px;
+}
